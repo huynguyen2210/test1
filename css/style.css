@@ -102,6 +102,19 @@ header a {
     margin-right: 0;
 }
 
+.navbar-light .navbar-toggler {
+    color: #000 !important;
+    border-color: #f0eeeb !important;
+}
+
+.navbar-light .navbar-toggler:hover,
+.navbar-light .navbar-toggler:active,
+.navbar-light .navbar-toggler:checked,
+.navbar-light .navbar-toggler:visited,
+.navbar-light .navbar-toggler:focus {
+    outline: none;
+}
+
 
 /* BODY */
 

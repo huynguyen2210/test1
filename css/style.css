@@ -111,7 +111,7 @@ header a {
 }
 
 .banner-info {
-    max-width: 51%;
+    max-width: 45%;
 }
 
 #banner-sub {
@@ -142,6 +142,10 @@ header a {
 
 #banner-content form {
     font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 0;
 }
 
 #banner-content input,
@@ -306,7 +310,7 @@ footer .navbar-brand {
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .container {
         max-width: 95%;
     }
@@ -337,6 +341,9 @@ footer .navbar-brand {
         max-width: 100%;
         margin-top: 20px;
     }
+    .banner-img img {
+        margin: 0 0 -60% 0;
+    }
     #banner-sub {
         font-size: 50px;
     }
@@ -352,9 +359,6 @@ footer .navbar-brand {
         line-height: 1.5;
     }
     #banner-content form input,
-    {
-        font-size: 26px;
-    }
     #banner-content form button {
         font-size: 26px;
     }
@@ -366,9 +370,6 @@ footer .navbar-brand {
     }
     .navbar-collapse a {
         font-size: 20px;
-    }
-    .banner-img img {
-        margin: 0 0 -60% 0;
     }
     #banner-sub {
         font-size: 42px;
@@ -402,19 +403,26 @@ footer .navbar-brand {
         margin: 0 0 -40% 0;
     }
     #banner-sub {
-        font-size: 30px;
+        font-size: 27px;
     }
     #banner-content p {
         font-size: 18px;
     }
     #banner-content ul li {
-        font-size: 18px;
+        font-size: 14px;
     }
     #banner-content form input,
     #banner-content form button {
-        font-size: 20px;
+        font-size: 14px;
     }
     .pro-info h1 {
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #banner-content form input,
+    #banner-content form button {
+        font-size: 11px;
     }
 }
